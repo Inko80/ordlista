@@ -1,0 +1,107 @@
+body{
+    background: linear-gradient(skyblue,aquamarine);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.center2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.left{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 3%;
+}
+.searchBar{
+    background: white;
+    padding: 20px;
+    border-radius: 50px;
+
+}
+.meny{
+    background: rgb(192, 187, 187);
+    padding: 1px;
+    border-radius: 5px;
+
+}
+.searchBar input{
+    padding: 20px;
+    border-radius: 50px;
+    background: rgb(183, 211, 222);
+    padding-right: 200px;
+    border: none;
+    font-size: 20px;
+}
+
+.searchBar button{
+    padding: 20px;
+    border-radius: 50px;
+    background:  rgb(149, 209, 160);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.searchBar button:hover{
+    background: aquamarine;
+}
+.searchBar button:active{
+    background: lightblue;
+}
+.title {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 130px;
+    border-radius: 5px;
+    background-color: #d5dad5;
+  }
+  
+  li a {
+    display: block;
+    color: #262626;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px ;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
